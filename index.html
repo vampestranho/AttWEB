@@ -1,106 +1,20 @@
-<!doctype html>
-<html>
-
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <link rel="stylesheet" type="text/css" href="formulario.css" media="screen">
-        <title>Cadastro</title>
-    </head>
-
-    <body>  
-
-        <div>
-            <h1 id="titulo">Alunos de GTI</h1>
-            <p id="subtitulo">Complete suas informações</p>
-            <br>
-        </div>
-
-
-        <form>
-
-            <fieldset class="grupo">
-                <legend class="grupo">Contato</legend>
-            <br>
-                <div class="campo">
-                    <label for="nome"><strong>Nome</strong></label>
-                    <input type="text" name="nome" id="nome" required>
-                </div>
-                <div class="campo">
-                    <label for="telefone"><strong>Telefone</strong></label>
-                    <input type="text" name="telefone" id="telefone" required>
-                </div>
-            
-            </fieldset> 
-
-
-            <div class="campo">
-                <label for="email"><strong>Email</strong></label>
-                <input type="email" name="email" id="email" required>
-            </div>
-           
-            <div class="campo">
-                <label for="estado"><strong>Estado</strong></label>
-                <select name="estados">
-                    <option value="selecionar">Selecionar</option>
-                    <optgroup label="Norte">
-                        <option value="AC">Acre</option>
-                        <option value="AP">Amapá</option>
-                        <option value="AM">Amazonas</option>
-                        <option value="PA">Pará</option>
-                        <option value="RO">Rondônia</option>
-                        <option value="RR">Roraima</option>
-                        <option value="TO">Tocantins</option>
-                    </optgroup>
-                    <optgroup label="Nordeste">
-                        <option value="AL">Alagoas</option>
-                        <option value="BA">Bahia</option>
-                        <option value="CE">Ceará</option>
-                        <option value="MA">Maranhão</option>
-                        <option value="PB">Paraíba</option>
-                        <option value="PE">Pernambuco</option>
-                        <option value="PI">Piauí</option>
-                        <option value="RN">Rio Grande do Norte</option>
-                        <option value="SE">Sergipe</option>
-                    </optgroup>
-                    <optgroup label="Centro-Oeste">
-                        <option value="DF">Distrito Federal</option>
-                        <option value="GO">Goiás</option>
-                        <option value="MT">Mato Grosso</option>
-                        <option value="MS">Mato Grosso do Sul</option>
-                    </optgroup>
-                    <optgroup label="Sudeste">
-                        <option value="ES">Espírito Santo</option>
-                        <option value="MG">Minas Gerais</option>
-                        <option value="RJ">Rio de Janeiro</option>
-                        <option value="SP">São Paulo</option>
-                    </optgroup>
-                    <optgroup label="Sul">
-                        <option value="PR">Paraná</option>
-                        <option value="RS">Rio Grande do Sul</option>
-                        <option value="SC">Santa Catarina</option>      
-                </select>
-            </div>
-
-            <div class="campo">
-                <label><strong>Deseja receber nossas novidades?</strong></label>
-                <label>
-                    <input type="radio" name="novidades" value="sim" checked>Sim
-                </label>
-                <label>
-                    <input type="radio" name="novidades" value="nao">Não
-                </label>
-
-            <div class="campo">
-                <br>
-                <label for="experiencia"><strong>Nos envie uma mensagem</strong></label>
-                <textarea rows="6" style="width: 26em" id="experiencia" name="experiencia"></textarea>
-            </div>
-
-            <button class="botao" type="submit" onsubmit="">Concluído</button>            
-
-        </form>
-
-    </body>
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Css/index.css" >
+</head>
+<body>
+    <h1>usando links externos</h1>
+    <p>voce pode acessar o meu <a href="https://github.com/vampestranho" target="_blank" rel="external">repositório publico no GitHub</a></p>
+    <p>voce pode acessar o meu <a href="https://www.youtube.com/channel/UCH_k40KNH2TWU2mXG7EJcnQ" target="_blank" rel="external" >canal do YouTube</a></p>
+    <P>voce pode acessar tambem meu <a href="https://www.instagram.com/vamp_estranho" target="_blank" rel="external">Instagram</a> e <a href="https://www.facebook.com/david.lc.790" target="_blank" rel="external">Facebook</a></P>
+    <h2>usando links internos</h2>
+    <p>olha oque tem na <a href="paginas/pag01.html" rel="next">pagina 01</a></p>
+    <p>a pagina <a href="paginas/pag02.html" rel="next">secundaria</a> e oque importa de verdade</p>
+    
+</body>
 </html>
